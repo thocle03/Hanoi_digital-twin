@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <input>
-        <net-file value="./demo.net.xml"/>
-        <route-files value="./demo.rou.xml"/>
+        <net-file value="demo.net.xml"/>
+        <route-files value="demo.rou.xml"/>
     </input>
-
     <time>
         <begin value="0"/>
-        <end value="3600"/>
-        <step-length value="1"/>
+        <end value="300"/>
     </time>
-
-    <output>
-        <summary value="./simulation_output.xml"/>
-        <tripinfo-output value="./tripinfo.xml"/>
-    </output>
-
     <report>
         <verbose value="true"/>
         <no-step-log value="false"/>
