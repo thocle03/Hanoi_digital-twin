@@ -20,8 +20,3 @@ Ce projet contient un petit réseau en XML (nodes/edges), des scripts pour const
 - Python ≥ 3.10  
 - VSCode (ou tout éditeur)
 - SUMO installé (et accessible via la commande `sumo` et `netconvert`).
-
-### Installation rapide
-#### Sous Linux / macOS :
-```bash
-bash install_deps.sh
