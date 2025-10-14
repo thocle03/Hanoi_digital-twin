@@ -1,5 +1,5 @@
 # SUMO demo project — Mini réseau + scripts (pour entraînement)
-**But** : fournir un projet minimal prêt à lancer sur ta machine (VSCode) pour s'entraîner à SUMO + Python (TraCI).  
+**But** : fournir un projet minimal prêt à lancer (VSCode) pour s'entraîner à SUMO + Python (TraCI).  
 Ce projet contient un petit réseau en XML (nodes/edges), des scripts pour construire le réseau avec `netconvert`, générer des routes, installer les dépendances, et un script Python `run_simulation.py` qui se connecte à SUMO via TraCI.
 
 ---

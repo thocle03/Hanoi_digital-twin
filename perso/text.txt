@@ -6,11 +6,6 @@ si je peux integrer via google map directement le plan de hanoi que je transform
 https://download.geofabrik.de/asia/vietnam.html
 données geo de tout le vietnam le but ici c'est d'extraire de cela uniquement les données d'hanoi
 
-bon j'ai reussi apres des longs galere de telecharger un hanoi_osm.py grace au script python 
-dans le dossier test puis donc a partir de ca je l'ai converti en xml puis j'ai executé avec sumo
-maintenant j'ai une erreur de mon fichier python qui ne reconnait plus traci alors que ca marchait 
-avant donc bizarre mais donc regler l'erreur puis relancer le run simulation et on devrait avoir les 
-fichiers csv de sortie a exploiter 
 
 UPDATE mardi 14 octobre
 Bon maintenant que ca l'air de marcher une version très basique avec hanoi
