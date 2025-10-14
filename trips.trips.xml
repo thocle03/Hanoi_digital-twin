@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-14 00:11:12 by Eclipse SUMO duarouter Version 1.24.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="hanoi.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="trips.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="130" depart="130.00" from="761990839#6" to="761990839#5"/>
+    <trip id="575" depart="575.00" from="-399350402#4" to="399350402#4"/>
+    <trip id="594" depart="594.00" from="29046482#2" to="29046482#4"/>
+    <trip id="779" depart="779.00" from="-944100696#1" to="700025093#5"/>
+    <trip id="892" depart="892.00" from="-761986894#12" to="-761986894#9"/>
+    <trip id="1068" depart="1068.00" from="702911227#0" to="-702911227#0"/>
+    <trip id="1259" depart="1259.00" from="601860672#1" to="601860672#2"/>
+    <trip id="1481" depart="1481.00" from="896577923#1" to="896577923#1"/>
+    <trip id="2071" depart="2071.00" from="-11553953#1" to="-28396450#0"/>
+    <trip id="2113" depart="2113.00" from="-295514386#2" to="295514386#1"/>
+    <trip id="2187" depart="2187.00" from="-602821668#7" to="602821668#6"/>
+    <trip id="2242" depart="2242.00" from="-500579397#1" to="-500579397#2"/>
+    <trip id="2572" depart="2572.00" from="36727357#0" to="36727357#1"/>
+    <trip id="3227" depart="3227.00" from="-1240127118#1" to="457131694#2"/>
+    <trip id="3267" depart="3267.00" from="599618292#3" to="599618292#3"/>
+</routes>

@@ -1,7 +1,0 @@
-la suite donc :
-creer un circuit bcp plus complexe que actuellement (j'ai qu'une ligne droite)
-si je peux integrer via google map directement le plan de hanoi que je transformerais donc en graphe
-
-
-https://download.geofabrik.de/asia/vietnam.html
-données geo de tout le vietnam le but ici c'est d'extraire de cela uniquement les données d'hanoi

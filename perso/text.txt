@@ -1,0 +1,44 @@
+la suite donc :
+creer un circuit bcp plus complexe que actuellement (j'ai qu'une ligne droite)
+si je peux integrer via google map directement le plan de hanoi que je transformerais donc en graphe
+
+
+https://download.geofabrik.de/asia/vietnam.html
+données geo de tout le vietnam le but ici c'est d'extraire de cela uniquement les données d'hanoi
+
+bon j'ai reussi apres des longs galere de telecharger un hanoi_osm.py grace au script python 
+dans le dossier test puis donc a partir de ca je l'ai converti en xml puis j'ai executé avec sumo
+maintenant j'ai une erreur de mon fichier python qui ne reconnait plus traci alors que ca marchait 
+avant donc bizarre mais donc regler l'erreur puis relancer le run simulation et on devrait avoir les 
+fichiers csv de sortie a exploiter 
+
+UPDATE mardi 14 octobre
+Bon maintenant que ca l'air de marcher une version très basique avec hanoi
+- il faut  générer un trafic plus réaliste avec des paramètres du style :
+python "C:\Users\thoma\sumo\sumo-1.24.0\tools\randomTrips.py" -n hanoi.net.xml -r hanoi.rou.xml -e 3600 -p 1.0 --trip-attributes="departLane='best' departSpeed='max' departPos='random'"
+
+- Ajouter des feux, arrêts et bus : 
+netconvert --osm-files hanoi.osm.pbf --tls.guess --tls.join -o hanoi_tls.net.xml
+
+- Connecter à un modèle d’IA ou d’optimisation
+
+Avec TraCI, on peut :
+ajuster les feux de circulation en temps réel,
+mesurer la congestion,
+tester un algorithme de contrôle intelligent (RL, heuristique, etc.).
+
+- Intégrer un tableau de bord de suivi
+Exporter les résultats vers un outil de visualisation :
+Streamlit (tableau de bord interactif Python),
+Grafana via export CSV,
+ou Jupyter avec visualisation en temps réel.
+
+- Créer un scénario urbain
+
+Il va falloir aussi  construire plusieurs scénarios :
+
+Scénario	        Description	                Objectif
+Base	            Trafic normal	            Validation réseau
+Heures de pointe	Densité augmentée	        Mesure congestion
+Accident	        Fermeture d’une voie	    Résilience du trafic
+Smart lights	    Contrôle IA	Optimisation     dynamique
